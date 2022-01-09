@@ -12,7 +12,7 @@
 <body>
   <div class="page">
     <header class="header">
-      <img src="./images/logo_place_header.svg" alt="Логотип заголовка" class="logo logo_place_header">
+      <a class="logo logo_place_header"></a>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
         жизни?
@@ -20,7 +20,8 @@
       </p>
       <img src="./images/header-image.png" alt="Изображение шапки" class="header__main-illustration">
       <div class="header__square-pic"></div>
-    </header>
+     </header>
+
     <main class="content">
 
       <section class="description">
@@ -41,7 +42,7 @@
 
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <p class="section-subtitle section-subtitle_margin">Про учёбу и мозг</p>
+        <p class="section-subtitle digits__section-subtitle">Про учёбу и мозг</p>
         <table class="table">
           <tr class="table__row">
             <td class="table__cell">
@@ -85,15 +86,15 @@
       </section>
 
       <section class="feynman">
-        <h2 class="title">Метод Фейнмана</h2>
-        <p class="subtitle">Выучить и не забыть.</p>
-        <a href="#" class="link">Подробнее &rarr;</a>
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a href="#" class="feynman__link">Подробнее &rarr;</a>
       </section>
 
       <section class="kaufman">
         <div class="kaufman__triangle"></div>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <p class="section-subtitle section-subtitle_margin section-subtitle_theme_dark">от Джоша Кауфмана</p>
+        <p class="section-subtitle kaufman__section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <table class="table table_theme_dark">
           <tr class="table__row">
             <td class="table__cell table__cell_theme_dark">
@@ -150,15 +151,17 @@
           <p class="footer__author">&copy;2021. Григорьева Марина</p>
         </div>
         <div class="footer__column footer__column_content_info">
-          <h2 class="footer__column-heading">О Практикуме</h2>
-          <ul class="footer__column-links">
-            <li><a href="#" class="footer__column-link">Главная</a></li>
-            <li><a href="#" class="footer__column-link">Концепция</a></li>
-            <li><a href="#" class="footer__column-link">Наставники</a></li>
-          </ul>
+          <h3 class="footer__column-heading">О Практикуме</h3>
+          <nav>
+            <ul class="footer__column-links">
+              <li><a href="#" class="footer__column-link">Главная</a></li>
+              <li><a href="#" class="footer__column-link">Концепция</a></li>
+              <li><a href="#" class="footer__column-link">Наставники</a></li>
+            </ul>
+          </nav>
         </div>
         <div class="footer__column footer__column_content_social">
-          <h2 class="footer__column-heading">Соцсети</h2>
+          <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li>
               <a href="#" class="footer__column-link">
