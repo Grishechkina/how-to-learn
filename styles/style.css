@@ -30,7 +30,7 @@
 }
 .header__subtitle {
   margin: 0;
-  max-width: 500px;
+  max-width: 388px;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -205,9 +205,11 @@
 }
 .section-title_theme_dark {
   color: white;
+  z-index: 1;
 }
 .section-subtitle_theme_dark {
   color: white;
+  z-index: 1;
 }
 .table_theme_dark {
   color: white;
