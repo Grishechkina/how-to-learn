@@ -6,4 +6,5 @@
   top: 50px;
   z-index: 2;
   display: flex;
+  column-gap: 20px;
 }
