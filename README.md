@@ -14,3 +14,5 @@
  - Flexbox;
  - Методология БЭМ;
  - Фйловая структура Nested БЭМ.
+
+## Ссылка: https://grishechkina.github.io/how-to-learn/
